@@ -4,16 +4,13 @@
 #
 Name     : R-BiocManager
 Version  : 1.30.20
-Release  : 33
+Release  : 34
 URL      : https://cran.r-project.org/src/contrib/BiocManager_1.30.20.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/BiocManager_1.30.20.tar.gz
 Summary  : Access the Bioconductor Project Package Repository
 Group    : Development/Tools
 License  : Artistic-2.0
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 # BiocManager
@@ -35,10 +32,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1677260703
+export SOURCE_DATE_EPOCH=1678811380
 
 %install
-export SOURCE_DATE_EPOCH=1677260703
+export SOURCE_DATE_EPOCH=1678811380
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
