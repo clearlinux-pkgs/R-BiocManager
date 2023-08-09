@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-BiocManager
-Version  : 1.30.21.1
-Release  : 39
-URL      : https://cran.r-project.org/src/contrib/BiocManager_1.30.21.1.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/BiocManager_1.30.21.1.tar.gz
+Version  : 1.30.22
+Release  : 40
+URL      : https://cran.r-project.org/src/contrib/BiocManager_1.30.22.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/BiocManager_1.30.22.tar.gz
 Summary  : Access the Bioconductor Project Package Repository
 Group    : Development/Tools
 License  : Artistic-2.0
@@ -35,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689783746
+export SOURCE_DATE_EPOCH=1691594713
 
 %install
-export SOURCE_DATE_EPOCH=1689783746
+export SOURCE_DATE_EPOCH=1691594713
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
