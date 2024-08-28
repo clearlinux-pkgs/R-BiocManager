@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : R-BiocManager
-Version  : 1.30.24
-Release  : 44
-URL      : https://cran.r-project.org/src/contrib/BiocManager_1.30.24.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/BiocManager_1.30.24.tar.gz
+Version  : 1.30.25
+Release  : 45
+URL      : https://cran.r-project.org/src/contrib/BiocManager_1.30.25.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/BiocManager_1.30.25.tar.gz
 Summary  : Access the Bioconductor Project Package Repository
 Group    : Development/Tools
 License  : Artistic-2.0
@@ -40,10 +40,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724193947
+export SOURCE_DATE_EPOCH=1724863442
 
 %install
-export SOURCE_DATE_EPOCH=1724193947
+export SOURCE_DATE_EPOCH=1724863442
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
