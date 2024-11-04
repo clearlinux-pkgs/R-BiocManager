@@ -7,7 +7,7 @@
 #
 Name     : R-BiocManager
 Version  : 1.30.25
-Release  : 45
+Release  : 46
 URL      : https://cran.r-project.org/src/contrib/BiocManager_1.30.25.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/BiocManager_1.30.25.tar.gz
 Summary  : Access the Bioconductor Project Package Repository
